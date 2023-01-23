@@ -1,0 +1,26 @@
+{
+  "name": "arch-reflector",
+  "version": "1.0.0",
+  "description": "This does the same as the 'reflector' archlinux package, however it works xD",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mssjim/arch-reflector.git"
+  },
+  "keywords": [
+    "pacman",
+    "arch",
+    "reflector",
+    "mirrorlist",
+    "archlinux"
+  ],
+  "author": "Mssjim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mssjim/arch-reflector/issues"
+  },
+  "homepage": "https://github.com/Mssjim/arch-reflector#readme"
+}
