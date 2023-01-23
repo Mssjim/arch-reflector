@@ -14,4 +14,11 @@ async function reflector(args) {
     }
 }
 
-reflector(process.argv.splice(2));
+  .version('1.0.0', '-v, --version')
+  .usage('[OPTIONS]...')
+  .option('--cache-timeout <number>', 'The cache timeout in seconds for the data retrieved from the Arch Linux Mirror Status API. The default is 300.', 300)
+  .parse(process.argv);
+
+const options = program.opts();
+
+reflector(options);
