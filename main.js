@@ -14,6 +14,7 @@ async function reflector(args) {
     }
 }
 
+program
   .version('1.0.0', '-v, --version')
   .usage('[OPTIONS]...')
   .option('--cache-timeout <number>', 'The cache timeout in seconds for the data retrieved from the Arch Linux Mirror Status API. The default is 300.', 300)
