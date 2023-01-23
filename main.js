@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fetch from 'node-fetch';
+import { program } from "commander";
 import fs from "fs";
 
 
