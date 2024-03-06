@@ -4,6 +4,7 @@ import fetch from 'node-fetch';
 import { program } from "commander";
 import fs from "fs";
 
+// Eu confio
 async function reflector(args) {
     let _data = {};
     let _urls = [];
